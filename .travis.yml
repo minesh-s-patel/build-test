@@ -1,4 +1,4 @@
 language: java
 sudo: false # faster builds
 
-script: "mvn clean package"
+script: "cd java-test-app && mvn clean package"
